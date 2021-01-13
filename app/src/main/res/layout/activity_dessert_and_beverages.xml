@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".DessertAndBeverages">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="10dp">
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="35dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="55dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="78dp"
+            android:background="?android:attr/listDivider"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dessert And Beverages"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_margin="10dp">
+
+     <ImageView
+         android:onClick="switchFoodtray"
+         android:layout_width="90dp"
+         android:layout_height="100dp"
+         android:src="@drawable/dab1"
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="8dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Oreo Mcflurry"
+          android:textAllCaps="true"
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="9dp"
+          android:textStyle="bold"
+          android:layout_marginLeft="13dp"
+          android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P49.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="125dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dab2"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caramel Sundae"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P29.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="125dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dab3"
+            android:layout_marginLeft="199dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Chocolate Sundae"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="198dp"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P29.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="125dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dab4"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Sundae"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P29.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="125dp"/>
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab5"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iced coffee original"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P49.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab6"
+           android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prz 12 oz"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+           android:layout_centerHorizontal="true"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P42.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab7"
+           android:layout_alignParentRight="true"
+            android:layout_marginTop="155dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Float"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P49.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab5"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iced coffee original"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P49.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prz 12 oz"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P42.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab7"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="155dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Float"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="275dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P49.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="290dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab8"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple Pie"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="455dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P32.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="470dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="330dp"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Bff Fries And Mcfloat Combo"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="455dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P221.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:src="@drawable/dab10"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Fries And Coke float combo"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="455dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P79.00"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="480dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

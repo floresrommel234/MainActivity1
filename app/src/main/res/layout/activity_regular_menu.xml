@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".RegularMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="20dp">
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="35dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="55dp"
+            android:background="?android:attr/listDivider"/>
+
+        <View
+            android:id="@+id/divider11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="78dp"
+            android:background="?android:attr/listDivider"/>
+
+        <ImageView
+         android:layout_width="120dp"
+         android:layout_height="80dp"
+         android:src="@drawable/logo"
+         android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regular Menu"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="20dp"
+        android:padding="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/rm1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="135dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="1PC CHICKEN MCDO"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="145dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="P83.00"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/rm2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="135dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="2PC CHICKEN MCDO"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="145dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="10dp"
+            android:text="P147.00"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/rm3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="135dp"
+            android:layout_alignParentRight="true"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="CRISPY CHICKEN FILLET"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="145dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="P57.00"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/rm4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true"
+            android:text="CHICKEN SPAGHETTI"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="51dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true"
+            android:text="P115.00"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/rm5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="8PC CHICKEN NUGGETS"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84dp"
+            android:textSize="10dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="P108.00"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="110dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/rm6" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="1PC MUSHROOM PEPPER STEAK"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="41dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="10dp"
+            android:text="P55.00"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/b1" />
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="49dp"
+            android:textSize="7dp"
+            android:text="QUARTER POUNDER W/CHEESE"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="7dp"
+            android:text="P148.00"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="93dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/b2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="117dp"
+            android:layout_marginBottom="55dp"
+            android:text="CHEESE BURGER"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="131dp"
+            android:layout_marginBottom="40dp"
+            android:text="P55.00"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/b3" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="55dp"
+            android:text="CHEESE BURGER"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="40dp"
+            android:text="P55.00"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:onClick="switchFoodtray"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/b4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="55dp"
+            android:text="BURGER MCDO"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="40dp"
+            android:text="P35.00"
+            android:textSize="7dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
